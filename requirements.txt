@@ -1,0 +1,7 @@
+torch>=2.2
+kornia>=0.7.0
+opencv-python
+scikit-learn
+tqdm
+pillow
+rich

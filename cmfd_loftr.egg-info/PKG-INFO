@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: cmfd_loftr
+Version: 0.1.0
+Summary: Copy-move forgery detection using LoFTR self-matching.
+Author: Your Name
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: torch>=2.2
+Requires-Dist: kornia>=0.7.0
+Requires-Dist: opencv-python
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: pillow
+Requires-Dist: rich
+Dynamic: license-file
+Dynamic: requires-python
