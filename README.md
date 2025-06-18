@@ -40,6 +40,16 @@ python -m cmfd_loftr.finetune --dataset_root VERI_KLASORU --epochs 5 --lr 1e-4
 - Veri klasörü: Görüntü ve ground-truth maske çiftleri içermelidir.
 - Kayıp fonksiyonu: Binary cross-entropy (BCE)
 
+## CASIA2 ile Fine-tune
+CASIA2 veri seti ile fine-tune yapmak için:
+
+```bash
+python -m cmfd_loftr.finetune --dataset_root CASIA2 --epochs 5 --lr 1e-4 --device cuda
+```
+- Görüntüler: `CASIA2/Tp/`
+- Maskeler: `CASIA2/CASIA 2 Groundtruth/`
+- Maskeler, görüntü dosya adının sonuna `_gt.png` eklenerek eşleşir.
+
 ## Testler
 Tüm testleri çalıştırmak için:
 ```bash
