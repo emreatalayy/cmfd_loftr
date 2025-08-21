@@ -57,6 +57,6 @@ pytest -q
 ```
 
 ## Lisans
-MIT
+Apache-2.0 license
 
 
